@@ -1,0 +1,154 @@
+
+
+
+body{  
+    background-image: url(3.0.webp);
+    background-position: center;
+    background-size: cover;
+    height: 95vh;
+    display: flex;
+    backdrop-filter: blur(3px);
+    background-position: no-repeat;
+    margin-top: 5px;
+    font-family: cursive;
+}
+    .topbar{
+    size: 0px;
+    margin-left: 11px;
+    width: 245px;
+    height: 18px;
+    background: radial-gradient(rgba(22, 22, 22, 0.5));
+    box-shadow: 0 0 10px rgba(20, 2, 2, 0.4);
+    border-radius: 4px;
+    backdrop-filter: blur(3px);
+   
+    
+}
+nav{
+    display: flex;
+    padding: 0px 5%;
+}
+.simple{
+    font-size: 3.5PX;
+    margin-top: -30px;
+}
+.logo{
+    margin-top: 4px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 8px;
+    float: left;
+    cursor: pointer;
+    font-family: cursive;
+}
+nav ul{
+    flex: 1px;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 5px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    transition: 0.2s ease;
+}
+nav ul li a:hover{
+    color:white;
+
+}
+
+.bars{
+    list-style:none;
+    margin: 2.5px;
+    cursor: pointer;
+    color: white;
+    font-size: 4.5px;
+    margin-left: 15px;
+    margin-right: -5px;
+}
+.main{
+    display: flex;
+    margin: 6.5px;
+}
+
+.active{
+    color:white;
+}
+.content{
+    background-image: url(3.0.webp);
+    background-position: center;
+    background-size: cover;
+    width: 800px;
+    height: 120px;
+    background: radial-gradient(rgba(24, 23, 23, 0.8));
+    box-shadow: 0 0 5px rgba(20, 0, 0, 0.4);
+    padding-left: 10px;
+    margin-right: 35px;
+    border-radius: 4px;
+    margin-left: -5.5px;
+    font-size: 3.5PX;
+    
+}
+h2{
+    font-size: 9px;
+    padding-top: 10px;
+
+}
+h4{
+    font-size:5px;
+    color: white;
+}
+.button{
+    font-size: 3px;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: cursive;
+    color: black;
+    background-color: white;
+    padding: 2px 4px;
+    outline: 0px;
+   }
+button:hover{
+    background-color: orange;
+   
+}
+
+.icon{
+    margin-left: -30px;
+    margin-right: -5px;
+    width: 20px;
+    height: 120px;
+    background: radial-gradient(rgba(22, 22, 22, 0.5));
+    box-shadow: 0 0 10px rgba(20, 2, 2, 0.4);
+    border-radius: 4px;
+    backdrop-filter: blur(3px);
+}
+
+.social-icons ul li{
+    list-style: none;
+    margin-top: 4px;
+    margin-left: -36px;
+    font-size: 5.5px;
+}
+
+.social-icons ul li{
+    text-decoration: none;
+    font-size:5.5px ;
+    color:white;
+    cursor: pointer;
+    padding: 4px 4px;
+    transition: 0.2 ease;
+    border-radius: 4px;
+
+}
+
+.social-icons ul li i:hover{
+    background-color: white;
+    color: black;
+}
+
